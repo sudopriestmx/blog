@@ -1,0 +1,36 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme = "paper"
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'joseortizdev'               # twitter.com/YOUR_TWITTER_ID
+  github = 'sudopriestmx'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'joseortizdev'           # instagram.com/YOUR_INSTAGRAM_ID
+  threads = '@joseortizdev'           # threads.net/@YOUR_THREADS_ID
+  linkedin = 'josepabloortizlack'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  mastodon = 'https://hachyderm.io/@joseortizdev'           # e.g. 'https://mastodon.instance/@xxx'
+  # home page profile
+  avatar = 'joseortizlack@outlook.com'                 # gravatar email or image url
+  name = 'Jose Ortiz'
+  bio = 'Sine Ars et Scientia Humanitas Nihil Est'
+
+
+  # misc
+  disablePostNavigation = false              # disable post navigation
+  #monoDarkIcon = true                       # show monochrome dark mode icon
+  math = true                               # enable KaTeX math typesetting globally
+
+  # giscus
+#[params.giscus]
+#  repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
+#  repoId = 'YOUR_GISCUS_REPO_ID'
+#  category = 'YOUR__GISCUS_CATEGORY'
+#  categoryId = 'YOUR_GISCUS_CATEGORY_ID'
+#  mapping = 'pathname'
+#  theme = 'light'
+# lang = 'zh-CN'
