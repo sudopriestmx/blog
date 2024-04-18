@@ -46,9 +46,13 @@
 
 
 
+
+
+
+
 <html
   class="not-ready lg:text-base"
-  style="--bg: #faf8f1"
+  style="--bg: #fbfbfb"
   lang="en-us"
 >
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -108,6 +112,8 @@ Visit the Hugo website!" />
   <link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" />
   
   <link rel="preload" as="image" href="http://localhost:1313/mastodon.svg" />
+  
+  <link rel="preload" as="image" href="http://localhost:1313/threads.svg" />
   
   
 
@@ -211,7 +217,7 @@ Visit the Hugo website!" />
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightBg = '#fbfbfb'.replace(/"/g, '');
     const setDark = (isDark) => {
       metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
@@ -298,6 +304,16 @@ Visit the Hugo website!" />
         rel="me"
       >
         mastodon
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./threads.svg)"
+        href="https://threads.net/@joseortizdev"
+        target="_blank"
+        rel="me"
+      >
+        threads
       </a>
       
     </nav>
