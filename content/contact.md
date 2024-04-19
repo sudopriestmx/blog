@@ -5,12 +5,11 @@ date = "2024-04-19"
 aliases = ["contact-me", "contact-us"]
 author = "Jose Ortiz"
 +++
-
 Looking for an experienced NodeJS Developer 👀?
 
 Want to talk about Open Source 📚?
 
-Share your favourite coffee brewing method ☕️?
+Share your favourite coffee brewing method ☕?
 
 Just want to chat?
 

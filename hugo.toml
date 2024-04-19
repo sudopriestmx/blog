@@ -5,6 +5,7 @@ paginate = 3
 languageCode = 'en-us'
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
+enableEmoji = true
 title = 'Jose Ortiz'
 theme = "paper"
 
