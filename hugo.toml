@@ -1,11 +1,16 @@
 baseURL = 'https://example.org/'
+author = "Jose Ortiz"
+copyright = "Copyright © 2024, Jose Ortiz; all rights reserved."
+paginate = 3
 languageCode = 'en-us'
-title = 'My Blog'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+title = 'Jose Ortiz'
 theme = "paper"
 
 [params]
   # color style
-  color = 'linen'                           # linen, wheat, gray, light
+  color = 'gray'                           # linen, wheat, gray, light
 
   # header social icons
   twitter = 'joseortizdev'               # twitter.com/YOUR_TWITTER_ID
@@ -16,13 +21,13 @@ theme = "paper"
   mastodon = 'https://hachyderm.io/@joseortizdev'           # e.g. 'https://mastodon.instance/@xxx'
   # home page profile
   avatar = 'joseortizlack@outlook.com'                 # gravatar email or image url
-  name = 'Jose Ortiz'
-  bio = 'Sine Ars et Scientia Humanitas Nihil Est'
+  name = '@joseortizdev'
+  bio = 'Company Team Leader @Distillery / Senior Back-End Developer-KYC @NaranjaX 🌐 Multilingual: 🇲🇽🇩🇪🇺🇸'
 
 
   # misc
   disablePostNavigation = false              # disable post navigation
-  #monoDarkIcon = true                       # show monochrome dark mode icon
+  monoDarkIcon = true                       # show monochrome dark mode icon
   math = true                               # enable KaTeX math typesetting globally
 
   # giscus
@@ -34,3 +39,37 @@ theme = "paper"
 #  mapping = 'pathname'
 #  theme = 'light'
 # lang = 'zh-CN'
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+#  [markup.highlight]
+#    lineNos = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
