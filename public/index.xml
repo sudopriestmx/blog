@@ -7,8 +7,15 @@
     <generator>Hugo 0.125.0</generator>
     <language>en-us</language>
     <copyright>Copyright © 2024, Jose Ortiz; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2024 15:46:19 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Contribution to Open Source Software</title>
+      <link>http://localhost:1313/post/my-first-contribution-to-oss/</link>
+      <pubDate>Fri, 26 Apr 2024 15:46:19 -0600</pubDate>
+      <guid>http://localhost:1313/post/my-first-contribution-to-oss/</guid>
+      <description>&lt;p&gt;On April 16th, 2024 I did my first contribution to Open Source Software 🎉🙌&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;It all started when I was participating in a workshop from &lt;a href=&#34;https://www.nodecongress.com&#34;&gt;Node Congress&lt;/a&gt; 2024: &lt;em&gt;Mastering Node.JS Test Runner&lt;/em&gt; by &lt;a href=&#34;https://www.marcoippolito.dev&#34;&gt;Marco Ippolito&lt;/a&gt; (Which was great BTW. I learned a lot about writing tests in Node.JS with the native test runner, introduced in Node.JS 20). You can find the test runner workshop &lt;a href=&#34;https://github.com/nearform/node-test-runner-workshop&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About me</title>
       <link>http://localhost:1313/about/</link>
@@ -22,13 +29,6 @@
       <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
       <description>Looking for an experienced NodeJS Developer 👀?&#xA;Want to talk about Open Source 📚?&#xA;Share your favourite coffee brewing method ☕?&#xA;Just want to chat?&#xA;You can find me across the internet at the following places:&#xA;GitHub: sudopriestmx LinkedIn: Jose Ortiz Threads: @joseortizdev Instagram: @joseortizdev Twitter / X: @joseortizdev Mastodon: @joseortizdev@hackyderm.io Email: hi@joseortiz.dev </description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 17 Apr 2024 22:57:14 -0600</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
   </channel>
 </rss>

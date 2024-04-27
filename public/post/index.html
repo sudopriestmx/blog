@@ -50,6 +50,8 @@
 
 
 
+
+
 <html
   class="not-ready lg:text-base"
   style="--bg: #fbfbfb"
@@ -64,7 +66,7 @@
   />
 
   
-  <title>My First Post - Jose Ortiz</title>
+  <title>Posts - Jose Ortiz</title>
 
   
   <meta name="theme-color" />
@@ -73,8 +75,11 @@
   
   
   
-  <meta name="description" content="Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!" />
+  
+  <meta
+    name="description"
+    content="A personal blog"
+  />
   <meta name="author" content="@joseortizdev" />
   
 
@@ -115,15 +120,11 @@ Visit the Hugo website!" />
   
   <link rel="preload" as="image" href="http://localhost:1313/threads.svg" />
   
+  <link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
+  
   
 
   
-  
-  <script
-    defer
-    src="http://localhost:1313/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
   
 
   
@@ -332,6 +333,16 @@ Visit the Hugo website!" />
         threads
       </a>
       
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
     </nav>
     
   </div>
@@ -343,47 +354,36 @@ Visit the Hugo website!" />
     >
       
 
-<article>
-  <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">My First Post</h1>
 
-    
-    <div class="text-sm antialiased opacity-60">
-      
-      <time>Apr 17, 2024</time>
-      
-      
-      
-      
-    </div>
-    
-  </header>
 
-  <section><h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <span
+    class="mb-2 ml-px inline-block text-[0.8rem] font-medium uppercase tracking-wider text-[#ff3b2d] opacity-70"
+    >Featured</span
+  >
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none">My First Contribution to OSS</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Apr 19, 2024</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://localhost:1313/post/my-first-contribution-to-oss/">My First Contribution to OSS</a>
 </section>
 
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
 
 
-  
-</article>
+
 
 
     </main>
