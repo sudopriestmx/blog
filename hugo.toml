@@ -20,6 +20,7 @@ theme = "paper"
   threads = '@joseortizdev'           # threads.net/@YOUR_THREADS_ID
   linkedin = 'josepabloortizlack'             # linkedin.com/in/YOUR_LINKEDIN_ID
   mastodon = 'https://hachyderm.io/@joseortizdev'           # e.g. 'https://mastodon.instance/@xxx'
+  rss = true
   # home page profile
   avatar = 'joseortizlack@outlook.com'                 # gravatar email or image url
   name = '@joseortizdev'
@@ -44,10 +45,14 @@ theme = "paper"
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
   [markup.goldmark]
-    [markup.goldmark.renderer]
+     [markup.goldmark.renderer]
       unsafe = true
-#  [markup.highlight]
-#    lineNos = true
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true
+#[markup.highlight]
+#  lineNos = true
 
 [menu]
 
