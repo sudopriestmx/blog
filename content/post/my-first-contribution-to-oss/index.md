@@ -1,5 +1,5 @@
 +++
-title = 'My First Contribution to Open Source Software'
+title = 'My first contribution to Open Source Software'
 date = 2024-04-26T15:46:19-06:00
 draft = false
 author = "Jose Ortiz"
