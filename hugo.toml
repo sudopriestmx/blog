@@ -33,14 +33,14 @@ theme = "paper"
   math = true                               # enable KaTeX math typesetting globally
 
   # giscus
-#[params.giscus]
-#  repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
-#  repoId = 'YOUR_GISCUS_REPO_ID'
-#  category = 'YOUR__GISCUS_CATEGORY'
-#  categoryId = 'YOUR_GISCUS_CATEGORY_ID'
-#  mapping = 'pathname'
-#  theme = 'light'
-# lang = 'zh-CN'
+  [params.giscus]
+    repo = 'sudopriestmx/blog'                 # see https://giscus.app for more details
+    repoId = 'YOUR_GISCUS_REPO_ID'
+    category = 'Announcements'
+    categoryId = 'DIC_kwDOLz4yy84Ce-vj'
+    mapping = 'pathname'
+    theme = 'dark'
+    lang = 'en'
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
