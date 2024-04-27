@@ -35,7 +35,7 @@ theme = "paper"
   # giscus
   [params.giscus]
     repo = 'sudopriestmx/blog'                 # see https://giscus.app for more details
-    repoId = 'YOUR_GISCUS_REPO_ID'
+    repoId = 'R_kgDOLz4yyw'
     category = 'Announcements'
     categoryId = 'DIC_kwDOLz4yy84Ce-vj'
     mapping = 'pathname'
