@@ -13,6 +13,11 @@ theme = "paper"
   # color style
   color = 'gray'                           # linen, wheat, gray, light
 
+  #open graph
+  description = 'My personal blog about software, Open Source, Technology, and everything in between.'
+  images = ['site-feature-image.jpg']
+  title = 'joseortiz.dev'
+
   # header social icons
   twitter = 'joseortizdev'               # twitter.com/YOUR_TWITTER_ID
   github = 'sudopriestmx'                 # github.com/YOUR_GITHUB_ID
@@ -21,11 +26,15 @@ theme = "paper"
   linkedin = 'josepabloortizlack'             # linkedin.com/in/YOUR_LINKEDIN_ID
   mastodon = 'https://hachyderm.io/@joseortizdev'           # e.g. 'https://mastodon.instance/@xxx'
   rss = true
+
   # home page profile
   avatar = 'joseortizlack@outlook.com'                 # gravatar email or image url
   name = '@joseortizdev'
   bio = 'Company Team Leader @Distillery / Senior Back-End Developer-KYC @NaranjaX 🌐 Multilingual: 🇲🇽🇩🇪🇺🇸'
 
+  #twitter
+  [params.social]
+    twitter = 'joseortizdev'
 
   # misc
   disablePostNavigation = false              # disable post navigation

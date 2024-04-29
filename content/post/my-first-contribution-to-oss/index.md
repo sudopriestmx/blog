@@ -17,6 +17,7 @@ series = [
 ]
 weight = 10
 description = 'My experience working on my first contribution to Open Source Software, including cloning an existing repository, fixing a bug, making a Pull Request, and merging the changes'
+images = ['site-feature-image.jpg']
 +++
 
 On April 16th, 2024 I did my first contribution to Open Source Software 🎉🙌
