@@ -1,6 +1,6 @@
 +++
 title = 'Accelerating Server-Side Development with Fastify by Manuel Spigolon, Maksim Sinik, and Matteo Colina: A Book Review'
-date = 2024-05-08T00:00:00-06:00
+date = 2024-05-11T00:00:00-06:00
 draft = false
 author = "Jose Ortiz"
 tags = [
