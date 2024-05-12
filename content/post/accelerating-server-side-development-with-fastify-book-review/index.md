@@ -18,9 +18,9 @@ series = [
 ]
 weight = 0
 description = 'A review of the book "Accelerating Server-Side Development with Fastify" by Manuel Spigolon, Maksim Sinik, and Matteo Colina, with an overview of the topics the book covers, what I found interesting and remarkable, and what I believe could be improvements for future editions.'
-images = ['/post/accelerating-server-side-development-with-fastify-book-review/images/title-image.jpg']
+images = ['title-image.jpg']
 +++
-![Book Cover](./images/book_cover.jpeg 'Cover image source: Packtpub.com')
+![Book Cover](./book_cover.jpeg 'Cover image source: Packtpub.com')
 
 ## Introduction
 

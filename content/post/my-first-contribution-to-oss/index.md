@@ -142,7 +142,7 @@ Having found a solution, I wanted to create a Pull Request to the workshop's rep
 
 Next, I opened a pull request using the *Contribute* option on my forked version of the repo.
 
-![Pull Request Dialog](./images/pull-request-dialog.jpg 'The pull request dialog')
+![Pull Request Dialog](./pull-request-dialog.jpg 'The pull request dialog')
 
 
 In the body of the [Pull Request](https://github.com/nearform/node-test-runner-workshop/pull/42), I explained the bug I recently found during the workshop, how I reached the solution and asking for feedback on style or a contributing standard before the PR was approved and merged (If possible, always look for a CONTRIBUTING.MD file, where open source project maintainers explain the way you can contribute to the project, steps to follow, templates to use, etc.).
