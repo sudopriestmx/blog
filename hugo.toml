@@ -30,7 +30,7 @@ theme = "paper"
   # home page profile
   avatar = 'joseortizlack@outlook.com'                 # gravatar email or image url
   name = '@joseortizdev'
-  bio = 'Company Team Leader @Distillery / Senior Back-End Developer-KYC @NaranjaX 🌐 Multilingual: 🇲🇽🇩🇪🇺🇸'
+  bio = 'Company Team Leader @Distillery / Senior Back-End Developer-GC @NaranjaX 🌐 Multilingual: 🇲🇽🇩🇪🇺🇸'
 
   #twitter
   [params.social]
